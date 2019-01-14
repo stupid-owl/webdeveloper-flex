@@ -51,6 +51,35 @@ nav{
 	margin-top: 20px;
 }
 
+.top-slide {
+	background:url(img/slider-bg.jpg) no-repeat;
+	padding-top:120px;
+	padding-bottom:300px;
+	}
+.top-container{
+	margin:0 auto;
+	width:85%;
+}
+
+.top-container h2{
+	background:#ffea00;
+	padding:0 13px;
+	font-size: 70px;
+	display:inline;
+}
+
+.top-container div:nth-child(2){
+	margin-bottom:10px;
+}
+
+.top-container p{
+	background:#414146;
+	font-size: 24px;
+	display:inline;
+	color:white;
+	padding:0 5px;
+}
+
 @media screen and (max-width:420px){	
 	.header-container{
 		width:100%;
