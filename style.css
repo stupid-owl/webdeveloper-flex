@@ -22,7 +22,7 @@ header{
 }
 
 .header-container{
-	width:  90%;
+	width:90%;
 	margin:0 auto;
 	display:flex;
 	justify-content: space-between;
@@ -77,8 +77,65 @@ nav{
 	font-size: 24px;
 	display:inline;
 	color:white;
-	padding:0 5px;
+	padding:0 5px;
 }
+
+.specialize-container{
+	width: 80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.specialize-container h3{
+	font-size: 35px;
+	color: #424147;
+}
+
+.specialize-container p{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.card{
+	width: 250px;
+	height: 285px;
+	display: flex;
+	flex-direction:column;
+}
+
+.top-card{
+	background:#ffe900;
+	height: 200px;
+}
+
+.top-card img{
+	margin:0 auto;
+}
+
+.top-card p{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.first-p{
+	font-size: 20px;
+	color: #fff;
+}
+.bottom-card{
+	background:#414145;
+	width: 250px;
+	height: 85px;
+}
+
+.specialize-cards {
+	display: flex;
+	justify-content:space-between;
+	
+}
+
+
 
 @media screen and (max-width:420px){	
 	.header-container{
