@@ -102,31 +102,42 @@ nav{
 	height: 285px;
 	display: flex;
 	flex-direction:column;
+	justify-content:space-around;
 }
 
 .top-card{
 	background:#ffe900;
 	height: 200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
 }
 
 .top-card img{
-	margin:0 auto;
+	display:block;
+	margin:auto;
 }
 
 .top-card p{
 	font-size: 20px;
 	text-align: center;
+	align-self:center;
 	margin-bottom: 10px;
+	margin-top: 0;
 }
 
-.first-p{
-	font-size: 20px;
+.bottom-card .first-p{
+	margin:0;
+	font-size:15px;
 	color: #fff;
+	
 }
 .bottom-card{
 	background:#414145;
 	width: 250px;
 	height: 85px;
+	padding:25px 10px 30px;
+	box-sizing:border-box;
 }
 
 .specialize-cards {
