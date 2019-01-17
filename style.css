@@ -80,6 +80,10 @@ nav{
 	padding:0 5px;
 }
 
+.specialize{
+	margin-bottom: 90px;
+}
+
 .specialize-container{
 	width: 80%;
 	margin:0 auto;
@@ -102,7 +106,7 @@ nav{
 	height: 285px;
 	display: flex;
 	flex-direction:column;
-	justify-content:space-around;
+	margin-bottom:20px;
 }
 
 .top-card{
@@ -114,14 +118,11 @@ nav{
 }
 
 .top-card img{
-	display:block;
 	margin:auto;
 }
 
 .top-card p{
 	font-size: 20px;
-	text-align: center;
-	align-self:center;
 	margin-bottom: 10px;
 	margin-top: 0;
 }
@@ -142,9 +143,58 @@ nav{
 
 .specialize-cards {
 	display: flex;
-	justify-content:space-between;
-	
+	justify-content:space-around;
+	flex-wrap:wrap;
 }
+
+.portfolio{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio h4{
+	background: #414147;
+	padding: 0 8px;
+	font-size: 18px;
+	color:#f2df05;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.portfolio p{
+	font-size: 16px;
+	color: #424146;
+}
+
+.toggles button {
+	border:none;
+	color:#424146;
+	cursor:pointer;
+	margin:20px 5px;
+	font-size: 16px;
+}
+
+.toggles button:after{
+	content:' / '
+}
+.toggles button:last-child:after{
+	content:''
+}
+
+.posts{
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns:auto auto auto auto;
+}
+
+.post img{
+	
+max-width: 100%;
+
+}
+
 
 
 
