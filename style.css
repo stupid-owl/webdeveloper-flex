@@ -173,6 +173,7 @@ nav{
 	cursor:pointer;
 	margin:20px 5px;
 	font-size: 16px;
+	background-color: transparent;
 }
 
 .toggles button:after{
@@ -183,16 +184,16 @@ nav{
 }
 
 .posts{
-	width: 90%;
 	display: grid;
-	margin: 0 auto;
-	grid-template-columns:auto auto auto auto;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 250px);
 }
 
 .post img{
-	
-max-width: 100%;
-
+ 	width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
