@@ -196,6 +196,27 @@ nav{
     object-fit: cover;
 }
 
+.brand-slider{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.brand-slider h4{
+	background: #414147;
+	padding: 0 8px;
+	margin-top: 40px;
+	font-size: 18px;
+	color:#f2df05;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.brand-slider p{
+	font-size: 16px;
+	color: #424146;
+}
+
 
 
 
